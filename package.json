@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tap tests/test-*.js"
   },
+  "bin": {
+    "umdify": "./bin/umdify"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MaxGfeller/umdify.git"

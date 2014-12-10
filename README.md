@@ -18,7 +18,7 @@ a folder for you.
 Just run this command in the root of your project:
 
 ```bash
-umd-ify --dir umd_modules/
+umdify --dir umd_modules/
 ```
 
 You can also define it as a script in your `package.json` file:
@@ -31,8 +31,11 @@ You can also define it as a script in your `package.json` file:
     "concat-stream": "^1.4.7",
     "minimist": "^1.1.0"
   },
+  "dev-dependencies": {
+    "umd-ify": "^1.0.0"
+  },
   "scripts": {
-    "build-dependencies": "umd-ify --dir umd_modules"
+    "build-dependencies": "umdify --dir umd_modules"
   }
 }
 ```

@@ -1,0 +1,31 @@
+{
+  "name": "umdify",
+  "version": "1.0.0",
+  "description": "Convert your node_modules/ into UMD files",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxGfeller/umdify.git"
+  },
+  "keywords": [
+    "umd",
+    "amd",
+    "cjs"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/umdify/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/umdify",
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
+  "dependencies": {
+    "browserify": "^7.0.0",
+    "concat-stream": "^1.4.7"
+  }
+}

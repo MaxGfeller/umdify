@@ -1,5 +1,5 @@
 {
-  "name": "umdify",
+  "name": "umd-ify",
   "version": "1.0.0",
   "description": "Convert your node_modules/ into UMD files",
   "main": "index.js",
